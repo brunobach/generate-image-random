@@ -1,0 +1,87 @@
+
+  {
+"gitinfo" : 
+{
+    "login": "brunobach",
+  "id": 42494225,
+  "node_id": "MDQ6VXNlcjQyNDk0MjI1",
+  "avatar_url": "https://avatars3.githubusercontent.com/u/42494225?v=4",
+  "gravatar_id": "",
+  "url": "https://api.github.com/users/brunobach",
+  "html_url": "https://github.com/brunobach",
+  "followers_url": "https://api.github.com/users/brunobach/followers",
+  "following_url": "https://api.github.com/users/brunobach/following{/other_user}",
+  "gists_url": "https://api.github.com/users/brunobach/gists{/gist_id}",
+  "starred_url": "https://api.github.com/users/brunobach/starred{/owner}{/repo}",
+  "subscriptions_url": "https://api.github.com/users/brunobach/subscriptions",
+  "organizations_url": "https://api.github.com/users/brunobach/orgs",
+  "repos_url": "https://api.github.com/users/brunobach/repos",
+  "events_url": "https://api.github.com/users/brunobach/events{/privacy}",
+  "received_events_url": "https://api.github.com/users/brunobach/received_events",
+  "type": "User",
+  "site_admin": false,
+  "name": "Bruno Bach",
+  "company": null,
+  "blog": "",
+  "location": "São Leopoldo/RS",
+  "email": null,
+  "hireable": null,
+  "bio": "import bio from './bio'\r\n\r\nEstudante de Eng da computação, e desenvolvedor javascript, apaixonado por tecnologia que adora testar uma lib nova toda semana 😂",
+  "twitter_username": null,
+  "public_repos": 18,
+  "public_gists": 0,
+  "followers": 2,
+  "following": 11,
+  "created_at": "2018-08-18T13:15:44Z",
+  "updated_at": "2020-07-06T00:25:57Z"
+}
+
+,      
+
+"gitFollow":[
+
+        
+            {
+              "login": "vinidotruan",
+              "id": 38192405,
+              "node_id": "MDQ6VXNlcjM4MTkyNDA1",
+              "avatar_url": "https://avatars2.githubusercontent.com/u/38192405?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/vinidotruan",
+              "html_url": "https://github.com/vinidotruan",
+              "followers_url": "https://api.github.com/users/vinidotruan/followers",
+              "following_url": "https://api.github.com/users/vinidotruan/following{/other_user}",
+              "gists_url": "https://api.github.com/users/vinidotruan/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/vinidotruan/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/vinidotruan/subscriptions",
+              "organizations_url": "https://api.github.com/users/vinidotruan/orgs",
+              "repos_url": "https://api.github.com/users/vinidotruan/repos",
+              "events_url": "https://api.github.com/users/vinidotruan/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/vinidotruan/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            {
+              "login": "kvnol",
+              "id": 3299130,
+              "node_id": "MDQ6VXNlcjMyOTkxMzA=",
+              "avatar_url": "https://avatars1.githubusercontent.com/u/3299130?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/kvnol",
+              "html_url": "https://github.com/kvnol",
+              "followers_url": "https://api.github.com/users/kvnol/followers",
+              "following_url": "https://api.github.com/users/kvnol/following{/other_user}",
+              "gists_url": "https://api.github.com/users/kvnol/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/kvnol/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/kvnol/subscriptions",
+              "organizations_url": "https://api.github.com/users/kvnol/orgs",
+              "repos_url": "https://api.github.com/users/kvnol/repos",
+              "events_url": "https://api.github.com/users/kvnol/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/kvnol/received_events",
+              "type": "User",
+              "site_admin": false
+            }
+          
+
+]
+}
