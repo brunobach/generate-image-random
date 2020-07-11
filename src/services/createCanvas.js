@@ -2,8 +2,8 @@ const fs = require('fs')
 const { createCanvas } = require('canvas')
 const path = require('path')
 
-const width = 800
-const height = 350
+const width = 760
+const height = 320
 
 const canvas = createCanvas(width, height)
 const ctx = canvas.getContext('2d')
@@ -25,16 +25,16 @@ module.exports = {
 		ctx.fillText('module.exports', 250, 80.)
 		
 		ctx.fillStyle = '#ff0000'
-		ctx.fillText('= {', 465, 80)
+		ctx.fillText('= {', 485, 80)
 
 		ctx.fillStyle = '#00ff00'
-		ctx.fillText('info', 280, 120)
+		ctx.fillText('info', 260, 120)
 
 		ctx.fillStyle = '#6800aa'
-		ctx.fillText('( ) {', 330, 120)
+		ctx.fillText('( ) {', 315, 120)
 
 		ctx.fillStyle = '#ffffff'
-		ctx.fillText('users_count:', 380, 160)
+		ctx.fillText('users_count:', 370, 160)
 
 		ctx.fillStyle = '#6f00ff'
 		ctx.fillText(qtd, 570, 160)
@@ -43,7 +43,7 @@ module.exports = {
 		ctx.fillText(',', 620, 160)
 
 		ctx.fillStyle = '#ffffff'
-		ctx.fillText('user_followers:', 380, 190)
+		ctx.fillText('user_followers:', 370, 190)
 
 		ctx.fillStyle = '#6f00ff'
 		ctx.fillText(followers, 590, 190)
@@ -52,20 +52,23 @@ module.exports = {
 		ctx.fillText(',', 610, 190)
 
 		ctx.fillStyle = '#ffffff'
-		ctx.fillText('last_follow:', 380, 220)
+		ctx.fillText('last_follower:', 370, 220)
 
 		ctx.fillStyle = '#ffff00'
-		ctx.fillText('"', 535, 220)
+		
+		ctx.fillText('"', 560, 220)
 		ctx.fillStyle = '#ffff00'
-		ctx.fillText(nameFollow[lastFollow].login, 550, 220)
+		
+		const calcNameWidht = (nameFollow[lastFollow].login.length * 18) + 560
+		ctx.fillText(nameFollow[lastFollow].login, 575, 220)
 		ctx.fillStyle = '#ffff00'
-		ctx.fillText('"', 625, 220)
+		ctx.fillText('"', calcNameWidht, 220)
 
 		ctx.fillStyle = '#ffffff'
-		ctx.fillText(',', 640, 220)
+		ctx.fillText(',', calcNameWidht + 10, 220)
 
 		ctx.fillStyle = '#ffffff'
-		ctx.fillText('date:', 380, 250)
+		ctx.fillText('date:', 370, 250)
 
 		ctx.fillStyle = '#ffff00'
 		ctx.fillText('"', 450, 250)
@@ -190,7 +193,7 @@ module.exports = {
 
 		//Desenhando Retangulo principal
 
-		roundedRect(ctx,210,10,560,300,15) // x, y, w, h
+		roundedRect(ctx,210,10,540,300,15) // x, y, w, h
 
 		const buffer = canvas.toBuffer('image/png')
 		fs.writeFileSync(path.join(__dirname, '..', 'images','canvas.png'), buffer)
